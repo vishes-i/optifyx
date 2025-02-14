@@ -1,0 +1,3115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Ecommerce Website</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Berkshire+Swash&family=Comic+Neue:wght@700&family=Gentium+Book+Plus:wght@400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Lexend+Deca:wght@500&family=Lexend:wght@500&family=Montserrat:wght@500&family=Open+Sans:wght@500;800&family=Roboto:wght@100;400&family=Sue+Ellen+Francisco&family=Work+Sans:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900;&display:swap">
+
+
+</head>
+
+<body>
+<section id="header">
+    <a href="#"><img src="https://cdn.dribbble.com/users/1473736/screenshots/4106177/logo-animated.gif" width="100px" height="50px"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="cart.html" id="lg-bag"><i class="fal fa-shopping-bag"></i></a>
+                <span class="quantity">0</span>
+            </li>
+            <li><a href="#" id="close" <i class="far fa-times"></i></a></li>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="cart.html" ><i class="fal fa-shopping-bag"></i>
+            <span class="quantity">0</span>
+        </a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
+
+<section id="hero">
+    <h4>Trade-in-fair</h4>
+    <h2>Super value deals</h2>
+    <h1>On all Products</h1>
+    <p>Save more with coupons and up to 70% off!</p>
+    <button>Shop Now</button>
+
+</section>
+
+<section id="feature" class="section-p1" style="background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_632/61663138349963.575ed1db2c16c.gif')">
+    <div class="fe-box">
+        <img src="https://i.postimg.cc/PrN2Y6Cv/f1.png" alt="">
+        <h6>Free Shipping</h6>
+    </div>
+
+    <div class="fe-box">
+        <img src="https://i.postimg.cc/qvycxW4q/f2.png" alt="">
+        <h6>Online Order</h6>
+    </div>
+
+    <div class="fe-box">
+        <img src="https://i.postimg.cc/1Rdphyz4/f3.png" alt="">
+        <h6>Save Money</h6>
+    </div>
+
+    <div class="fe-box">
+        <img src="https://i.postimg.cc/GpYc2JFZ/f4.png" alt="">
+        <h6>Promotions</h6>
+    </div>
+
+    <div class="fe-box">
+        <img src="https://i.postimg.cc/4yFCwmv6/f5.png" alt="">
+        <h6>Happy Sell</h6>
+    </div>
+
+    <div class="fe-box">
+        <img src="https://i.postimg.cc/gJN1knTC/f6.png" alt="">
+        <h6>F24/7 Support</h6>
+    </div>
+
+</section>
+
+<section id="product1" class="section-p1" style="background-image: url('https://i0.wp.com/wallpaperxyz.com/wp-content/uploads/Gif-Animated-Wallpaper-Background-Full-HD-Free-Download-for-PC-Macbook-261121-Wallpaperxyz.com-19.gif')">
+    <h2>Featured Products</h2>
+    <p>Summer Collection New Modern Design</p>
+    <div class="pro-container">
+        <div class="pro" onclick="window.location.href='https://codepen.io/Motun/full/OJBwbrQ'">
+            <img src="https://i.postimg.cc/kg9YYbTn/f1.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Carton Astronault Tshirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/2yhT2kvb/f2.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Carton Leave T-shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/VL9DtNm2/f3.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Rose Multicolor T-shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/vZ3hPS1z/f4.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Pink Flower T-shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/q7FLrhx6/f5.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Purple Flowering Tshirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/L86BZByZ/f7.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Short Knicker </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/zDxJ2f0H/f6.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>2 in 1 Double Routed</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/x8qcBrpP/n6.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Ash Short</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+    </div>
+</section>
+
+<section id="banner" class="section-m1">
+    <h4> Repair Service</h4>
+    <h2>Up to <span>70% off </span> - All T-shirts and Accessories</h2>
+    <button class="btn normal">Explore more</button>
+</section>
+
+<section id="product1" class="section-p1" style="background-image: url('https://th.bing.com/th/id/OIP.yxEe9wI5z2Ia6rO9VPv4JgHaEo?w=3840&h=2400&rs=1&pid=ImgDetMain')">
+    <h2>New Arrivals</h2>
+    <p>Summer Collection New Modern Design</p>
+    <div class="pro-container">
+        <div class="pro">
+            <img src="https://i.postimg.cc/hG1hqqK6/n1.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Carton Astronaut T-shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/BZkSkvxt/n2.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Carton Leave T-shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/KYjcC3sk/n3.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Rose Multicolor T-shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/vHvQBtJx/n4.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Pink Flower T-Shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/908J8S4q/n5.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Purple Flowering T-Shirts</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/X7r8NsGQ/n7.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Short Knicker </h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/JhrH0hYM/n8.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>2 in 1 Double Routed</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+
+
+        <div class="pro">
+            <img src="https://i.postimg.cc/2Sq4mytJ/f8.jpg" alt="">
+            <div class="des">
+                <span>adidas</span>
+                <h5>Ash Short</h5>
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h4>$78</h4>
+            </div>
+            <a href=""><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+
+    </div>
+</section>
+
+<section id="sm-banner" class="section-p1" style="background-image: url('https://img.freepik.com/premium-vector/abstract-vertical-line-beams-data-flows-concept_606575-2708.jpg')">
+    <div class="banner-box">
+        <h4>crazy deals</h4>
+        <h2>buy 1, get 1 free</h2>
+        <span>The best classic dress is on sales at cara</span>
+        <button class="btn white">Learn More</button>
+
+    </div>
+
+    <div class="banner-box banner-box2">
+        <h4>spring/summer</h4>
+        <h2>upcoming season</h2>
+        <span>The best classic dress is on sales at cara</span>
+        <button class="btn white">Collection</button>
+
+    </div>
+
+</section>
+
+<section id="banner3" class="section-p1" style="background-image: url('https://img.freepik.com/premium-vector/abstract-vertical-line-beams-data-flows-concept_606575-2708.jpg')">
+    <div class="banner-box">
+
+        <h2>SEASONAL SALES</h2>
+        <h3>Winter Collection -40% OFF</h3>
+
+    </div>
+
+    <div class="banner-box banner-img2">
+
+        <h2>SEASONAL SALES</h2>
+        <h3>Winter Collection -66% OFF</h3>
+
+    </div>
+
+    <div class="banner-box banner-img3">
+
+        <h2>SEASONAL SALES</h2>
+        <h3>Winter Collection -80% OFF</h3>
+
+    </div>
+
+</section>
+
+<section id="newsletter" class="section-p1" >
+    <div class="newstext">
+        <h4>Sign Up for Newsletters</h4>
+        <p>Get Email updates about our latest shop and <span> special offers.</span> </p>
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+        <button class="btn normal">Sign Up</button>
+    </div>
+</section>
+
+<footer class="section-p1" style="background-image: url('https://cdn.dribbble.com/users/1233499/screenshots/3855329/ecommerce-illustration2-3.gif')">
+
+    <div class="col">
+        <a href="#"><img class="logo" src="https://cdn.dribbble.com/users/1473736/screenshots/4106177/logo-animated.gif" width="100px," height="100px"></a>
+        <h4>Contact</h4>
+        <p><strong>Address:</strong>Gomti Nagar Sector-3,Lucknow ,Uttar Pradesh ,India </p>
+        <p><strong>Phone:</strong>+943322344434,924523322323</p>
+        <p><strong>Hours:</strong>10.00-18.00,Mon-Sun</p>
+        <div class="follow">
+            <h4>Follow Us</h4>
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-pinterest-p"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec">
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms and Condition</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Account</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track my Order</a>
+            <a href="#">Help</a>
+
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+
+            <div class="row">
+                <img src="https://i.postimg.cc/Y2s5mLdR/app.jpg" alt="">
+                <img src="https://i.postimg.cc/7YvyWTS6/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="https://i.postimg.cc/kgfzqVRW/pay.png" alt="">
+        </div>
+    </div>
+
+    <div class="coypright">
+        <p> © 2025 All rights reserved! made by vishesh</p>
+    </div>
+
+</footer>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<script src="script.js"></script>
+</body>
+
+</html>
+=====================
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+        }
+
+        html {
+            box-sizing: border-box;
+        }
+
+        *, *:before, *:after {
+            box-sizing: inherit;
+        }
+
+        .column {
+            float: left;
+            width: 33.3%;
+            margin-bottom: 16px;
+            padding: 0 8px;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin: 8px;
+        }
+
+        .about-section {
+            padding: 50px;
+            text-align: center;
+            background-color: #474e5d;
+            color: white;
+        }
+
+        .container {
+            padding: 0 16px;
+        }
+
+        .container::after, .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .title {
+            color: grey;
+        }
+
+        .button {
+            border: none;
+            outline: 0;
+            display: inline-block;
+            padding: 8px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        .button:hover {
+            background-color: #555;
+        }
+
+        @media screen and (max-width: 650px) {
+            .column {
+                width: 100%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body style="background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/04/Website-Backgrounds-For-Desktop.jpg')">
+<div class="about-section" style="background-image: url('https://static.vecteezy.com/system/resources/previews/006/852/804/original/abstract-blue-background-simple-design-for-your-website-free-vector.jpg')">
+    <h1>About Company</h1>
+    <p>E-Commerce Websites</p>
+    <p>HubSpot About Us page opens with its mission and flows directly into the company story. In addition, this page features a video from the CEO that discusses his initial interactions with Hubspot founder and his vision for the company moving forward.
+
+        By including a video on the About Us page, HubSpot engages browsing prospects in a new medium they may be eager to consume.</p>
+</div>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="https://th.bing.com/th/id/OIP.mtfszo4Y1cCvw9Us9lLRTAHaJ4?pid=ImgDet&w=474&h=632&rs=1" alt="Jane" style="width:100%">
+            <div class="container">
+                <h2>Vishesh Kumar Prajapati</h2>
+                <p class="title">CEO & Founder</p>
+                <p>Computer science Engineer</p>
+                <p>visheshk.p@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/young-smart-indian-businesswoman-smiling-face-standing-blur-background-creative-colorful-office-interior-design-generative-ai-aig20_31965-142318.jpg" alt="hjkkk" style="width:100%">
+            <div class="container">
+                <h2>Sagun  Srivastava</h2>
+                <p class="title">Art Director</p>
+                <p>Manager</p>
+                <p>sagunsrivastava233@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="https://img.freepik.com/premium-photo/young-smart-indian-businesswoman-smiling-face-standing-blur-background-creative-colorful-office-interior-design-generative-ai-aig20_31965-158860.jpg?w=740" alt="vbbn" style="width:100%">
+            <div class="container">
+                <h2>SWATI SRIVASTAVA</h2>
+                <p class="title">Designer</p>
+                <p>ASSISTANT MANAGER</p>
+                <p>Swati77855@gmail.com</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+===============================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+        min-height: 100vh;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) !important;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    body::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(0,0,0,0.8);
+    }
+
+    section {
+        position: relative;
+        z-index: 3;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .container {
+        max-width: 1080px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .section-header {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .section-header h2 {
+        color: #FFF;
+        font-weight: bold;
+        font-size: 3em;
+        margin-bottom: 20px;
+    }
+
+    .section-header p {
+        color: #FFF;
+    }
+
+    .row  {
+        display: flex;
+        flwx-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .contact-info {
+        width: 50%;
+    }
+
+    .contact-info-item {
+        display: flex;
+        margin-bottom: 30px;
+    }
+
+    .contact-info-icon {
+        height: 70px;
+        width: 70px;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 50%;
+    }
+
+    .contact-info-icon i {
+        font-size: 30px;
+        line-height: 70px;
+    }
+
+    .contact-info-content {
+        margin-left: 20px;
+    }
+
+    .contact-info-content h4 {
+        color: #1da9c0;
+        font-size: 1.4em;
+        margin-bottom: 5px;
+    }
+
+    .contact-info-content p {
+        color: #FFF;
+        font-size: 1em;
+    }
+
+    .contact-form {
+        background-color: #fff;
+        padding: 40px;
+        width: 45%;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+    .contact-form h2 {
+        font-weight: bold;
+        font-size: 2em;
+        margin-bottom: 10px;
+        color: #333;
+    }
+
+    .contact-form .input-box {
+        position: relative;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .contact-form .input-box input,
+    .contact-form .input-box textarea{
+        width: 100%;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        border: none;
+        border-bottom: 2px solid #333;
+        outline: none;
+        resize: none;
+    }
+
+    .contact-form .input-box span {
+        position: absolute;
+        left: 0;
+        padding: 5px 0;
+        font-size: 16px;
+        margin: 10px 0;
+        pointer-events: none;
+        transition: 0.5s;
+        color: #666;
+    }
+
+    .contact-form .input-box input:focus ~ span,
+    .contact-form .input-box textarea:focus ~ span{
+        color: #e91e63;
+        font-size: 12px;
+        transform: translateY(-20px);
+    }
+
+    .contact-form .input-box input[type="submit"]
+    {
+        width: 100%;
+        background: #00bcd4;
+        color: #FFF;
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        font-size: 18px;
+        border: 1px solid #00bcd4;
+        transition: 0.5s;
+    }
+
+    .contact-form .input-box input[type="submit"]:hover
+    {
+        background: #FFF;
+        color: #00bcd4;
+    }
+
+    @media (max-width: 991px) {
+        section {
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .row {
+            flex-direction: column;
+        }
+
+        .contact-info {
+            margin-bottom: 40px;
+            width: 100%;
+        }
+
+        .contact-form {
+            width: 100%;
+        }
+    }
+</style>
+<body>
+<section>
+
+    <div class="section-header">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Contact-section on a website that provides information about a company, organization, or individual. It’s an opportunity to tell your brand’s story, share your vision or mission, introduce team members, and outline your history and achievements. This is where you build trustand credibility with customer</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+            <div class="contact-info">
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+                        <h4>Address</h4>
+                        <p>GOMTI NAGAR<br/> SECTOR-3 LUCKNOW ,UTTAR-PRADESH,INDIA <br/>227202</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+                        <h4>Phone</h4>
+                        <p>9664572321</p>
+                    </div>
+                </div>
+
+                <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+
+                    <div class="contact-info-content">
+                        <h4>Email</h4>
+                        <p>VISHESHK.P2GMAIL.COM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="" id="contact-form">
+                    <h2>Send Message</h2>
+                    <div class="input-box">
+                        <input type="text" required="true" name="">
+                        <span>Full Name</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="email" required="true" name="">
+                        <span>Email</span>
+                    </div>
+
+                    <div class="input-box">
+                        <textarea required="true" name=""></textarea>
+                        <span>Type your Message...</span>
+                    </div>
+
+                    <div class="input-box">
+                        <input type="submit" value="Send" name="">
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
+=================
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>cart</title>
+</head>
+<style>
+    body {
+        background: #6403bd;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .clearfix {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    #site-header, #site-footer {
+        background: #fff;
+    }
+
+    #site-header {
+        margin: 0 0 30px 0;
+    }
+
+    #site-header h1 {
+        font-size: 31px;
+        font-weight: 300;
+        padding: 40px 0;
+        position: relative;
+        margin: 0;
+    }
+
+    a {
+        color: #000;
+        text-decoration: none;
+
+        -webkit-transition: color .2s linear;
+        -moz-transition: color .2s linear;
+        -ms-transition: color .2s linear;
+        -o-transition: color .2s linear;
+        transition: color .2s linear;
+    }
+
+    a:hover {
+        color: #53b5aa;
+    }
+
+    #site-header h1 span {
+        color: #53b5aa;
+    }
+
+    #site-header h1 span.last-span {
+        background: #df0101;
+        padding-right: 150px;
+        position: absolute;
+        left: 217px;
+
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -ms-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+    }
+
+    #site-header h1:hover span.last-span, #site-header h1 span.is-open {
+        left: 363px;
+    }
+
+    #site-header h1 em {
+        font-size: 16px;
+        font-style: normal;
+        vertical-align: middle;
+    }
+
+    .container {
+        font-family: 'Open Sans', sans-serif;
+        margin: 0 auto;
+        width: 980px;
+    }
+
+    #cart {
+        width: 100%;
+    }
+
+    #cart h1 {
+        font-weight: 300;
+    }
+
+    #cart a {
+        color: #53b5aa;
+        text-decoration: none;
+
+        -webkit-transition: color .2s linear;
+        -moz-transition: color .2s linear;
+        -ms-transition: color .2s linear;
+        -o-transition: color .2s linear;
+        transition: color .2s linear;
+    }
+
+    #cart a:hover {
+        color: #000;
+    }
+
+    .product.removed {
+        margin-left: 980px !important;
+        opacity: 0;
+    }
+
+    .product {
+        border: 1px solid #0140d5;
+        margin: 20px 0;
+        width: 100%;
+        height: 195px;
+        position: relative;
+
+        -webkit-transition: margin .2s linear, opacity .2s linear;
+        -moz-transition: margin .2s linear, opacity .2s linear;
+        -ms-transition: margin .2s linear, opacity .2s linear;
+        -o-transition: margin .2s linear, opacity .2s linear;
+        transition: margin .2s linear, opacity .2s linear;
+    }
+
+    .product img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .product header, .product .content {
+        background-color: #fff;
+        border: 1px solid #ccc;
+        border-style: none none solid none;
+        float: left;
+    }
+
+    .product header {
+        background: #000;
+        margin: 0 1% 20px 0;
+        overflow: hidden;
+        padding: 0;
+        position: relative;
+        width: 24%;
+        height: 195px;
+    }
+
+    .product header:hover img {
+        opacity: .7;
+    }
+
+    .product header:hover h3 {
+        bottom: 73px;
+    }
+
+    .product header h3 {
+        background: #53b5aa;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 49px;
+        margin: 0;
+        padding: 0 30px;
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        left: 0;
+
+        -webkit-transition: bottom .2s linear;
+        -moz-transition: bottom .2s linear;
+        -ms-transition: bottom .2s linear;
+        -o-transition: bottom .2s linear;
+        transition: bottom .2s linear;
+    }
+
+    .remove {
+        cursor: pointer;
+    }
+
+    .product .content {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 140px;
+        padding: 0 20px;
+        width: 75%;
+    }
+
+    .product h1 {
+        color: #53b5aa;
+        font-size: 25px;
+        font-weight: 300;
+        margin: 17px 0 20px 0;
+    }
+
+    .product footer.content {
+        height: 50px;
+        margin: 6px 0 0 0;
+        padding: 0;
+    }
+
+    .product footer .price {
+        background: #fcfcfc;
+        color: #000;
+        float: right;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 49px;
+        margin: 0;
+        padding: 0 30px;
+    }
+
+    .product footer .full-price {
+        background: #53b5aa;
+        color: #fff;
+        float: right;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 49px;
+        margin: 0;
+        padding: 0 30px;
+
+        -webkit-transition: margin .15s linear;
+        -moz-transition: margin .15s linear;
+        -ms-transition: margin .15s linear;
+        -o-transition: margin .15s linear;
+        transition: margin .15s linear;
+    }
+
+    .qt, .qt-plus, .qt-minus {
+        display: block;
+        float: left;
+    }
+
+    .qt {
+        font-size: 19px;
+        line-height: 50px;
+        width: 70px;
+        text-align: center;
+    }
+
+    .qt-plus, .qt-minus {
+        background: #fcfcfc;
+        border: none;
+        font-size: 30px;
+        font-weight: 300;
+        height: 100%;
+        padding: 0 20px;
+        -webkit-transition: background .2s linear;
+        -moz-transition: background .2s linear;
+        -ms-transition: background .2s linear;
+        -o-transition: background .2s linear;
+        transition: background .2s linear;
+    }
+
+    .qt-plus:hover, .qt-minus:hover {
+        background: #53b5aa;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .qt-plus {
+        line-height: 50px;
+    }
+
+    .qt-minus {
+        line-height: 47px;
+    }
+
+    #site-footer {
+        margin: 30px 0 0 0;
+    }
+
+    #site-footer {
+        padding: 40px;
+    }
+
+    #site-footer h1 {
+        background: #fcfcfc;
+        border: 1px solid #ccc;
+        border-style: none none solid none;
+        font-size: 24px;
+        font-weight: 300;
+        margin: 0 0 7px 0;
+        padding: 14px 40px;
+        text-align: center;
+    }
+
+    #site-footer h2 {
+        font-size: 24px;
+        font-weight: 300;
+        margin: 10px 0 0 0;
+    }
+
+    #site-footer h3 {
+        font-size: 19px;
+        font-weight: 300;
+        margin: 15px 0;
+    }
+
+    .left {
+        float: left;
+    }
+
+    .right {
+        float: right;
+    }
+
+    .btn {
+        background: #53b5aa;
+        border: 1px solid #ae0202;
+        cursor: pointer;
+        display: block;
+        color: #fff;
+        font-size: 20px;
+        font-weight: 300;
+        padding: 16px 0;
+        width: 290px;
+        text-align: center;
+
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -ms-transition: all .2s linear;
+        -o-transition: all .2s linear;
+        transition: all .2s linear;
+    }
+
+    .btn:hover {
+        color: #fff;
+        background: #429188;
+    }
+
+    .type {
+        background: #fcfcfc;
+        font-size: 13px;
+        padding: 10px 16px;
+        left: 100%;
+    }
+
+    .type, .color {
+        border: 1px solid #ccc;
+        position: absolute;
+    }
+
+    .color {
+        width: 40px;
+        height: 40px;
+        right: -40px;
+    }
+
+    .red {
+        background: #cb5a5e;
+    }
+
+    .yellow {
+        background: #f1c40f;
+    }
+
+    .blue {
+        background: #3598dc;
+    }
+
+    .minused{
+        margin: 0 50px 0 0 !important;
+    }
+
+    .added {
+        margin: 0 -50px 0 0 !important;
+    }
+
+</style>
+<body>
+<header id="site-header" style="background-color: #ffbd27">
+    <div class="container" >
+        <h1>Shopping cart <span></span><em><a href="https://codepen.io/tag/rodeo-007" target="_blank">E-commerce</a></em><span class="last-span is-open"></span></h1>
+    </div>
+</header>
+
+<div class="container">
+
+    <section id="cart">
+        <article class="product">
+            <header>
+                <a class="remove">
+                    <img src="https://th.bing.com/th/id/OSK.HEROEEGNF8VmQEEHgrZ5_pCtpeinS-e6UmTZEdNMqZl0SyM?rs=1&pid=ImgDetMain" alt="">
+
+                    <h3>Remove product</h3>
+                </a>
+            </header>
+
+            <div class="content">
+
+                <h1>
+                    3d t shirt black t shirt mock up template t shirt mock up realistic t shirt fashion
+                    License:
+                    This file is distributed under the Our Standard License.</h1>
+
+
+
+                <div title="You have selected this product to be shipped in the color yellow." style="top: 0" class="color yellow"></div>
+                <div style="top: 43px" class="type small">XXL</div>
+            </div>
+
+            <footer class="content">
+                <span class="qt-minus">-</span>
+                <span class="qt">2</span>
+                <span class="qt-plus">+</span>
+
+                <h2 class="full-price">
+                   45667
+                </h2>
+
+                <h2 class="price" style="background-color: #126ef1">
+                   3456
+                </h2>
+            </footer>
+        </article>
+
+        <article class="product">
+            <header>
+                <a class="remove">
+                    <img src="https://th.bing.com/th/id/OIP.WDNqUO1QscpjxTQH18ROngHaHa?w=1080&h=1080&rs=1&pid=ImgDetMain" alt="">
+
+                    <h3>Remove product</h3>
+                </a>
+            </header>
+
+            <div class="content">
+
+                <h1>Black t-shirt unisex mockup. Trendy lightweight clothing with pleats for sports and everyday life. Fashion design for men and vector women Pro Vector</h1>
+
+
+
+                <div title="You have selected this product to be shipped in the color red." style="top: 0" class="color red"></div>
+                <div title="You have selected this product to be shipped sized Small."  style="top: 43px" class="type small">Small</div>
+            </div>
+
+            <footer class="content">
+
+                <span class="qt-minus">-</span>
+                <span class="qt">1</span>
+                <span class="qt-plus">+</span>
+
+                <h2 class="full-price">
+                    1567
+                </h2>
+
+                <h2 class="price" style="background-color: #126ef1">
+                   1234
+                </h2>
+            </footer>
+        </article>
+
+        <article class="product">
+            <header>
+                <a class="remove">
+                    <img src="https://th.bing.com/th/id/OIP.an32vnClA-tirKBwoUYMDwHaG6?rs=1&pid=ImgDetMain" alt="">
+
+                    <h3>Remove product</h3>
+                </a>
+            </header>
+
+            <div class="content">
+
+                <h1>
+                    Long sleeve T-shirt technical fashion flat sketch vector illustration Template Free Vector and Free SVG</h1>
+
+
+                <div title="You have selected this product to be shipped in the color blue." style="top: 0" class="color blue"></div>
+                <div style="top: 43px" class="type small">Large</div>
+            </div>
+
+            <footer class="content">
+
+                <span class="qt-minus">-</span>
+                <span class="qt">3</span>
+                <span class="qt-plus">+</span>
+
+                <h2 class="full-price">
+                    5345
+                </h2>
+
+                <h2 class="price" style="background-color: #126ef1">
+                    2799
+                </h2>
+            </footer>
+        </article>
+
+    </section>
+
+</div>
+
+<footer id="site-footer" style="background-color: #ffbd27">
+    <div class="container clearfix">
+
+        <div class="left">
+            <h2 class="subtotal">Subtotal: <span>52579</span></h2>
+            <h3 class="tax">Taxes (5%): <span>80</span></h3>
+            <h3 class="shipping">Shipping: <span>50</span></h3>
+        </div>
+
+        <div class="right">
+            <h1 class="total">Total: <span>52709</span></h1>
+            <a class="btn">Checkout</a>
+        </div>
+
+    </div>
+</footer>
+<script>
+    var check = false;
+
+    function changeVal(el) {
+        var qt = parseFloat(el.parent().children(".qt").html());
+        var price = parseFloat(el.parent().children(".price").html());
+        var eq = Math.round(price * qt * 100) / 100;
+
+        el.parent().children(".full-price").html( eq + "€" );
+
+        changeTotal();
+    }
+
+    function changeTotal() {
+
+        var price = 0;
+
+        $(".full-price").each(function(index){
+            price += parseFloat($(".full-price").eq(index).html());
+        });
+
+        price = Math.round(price * 100) / 100;
+        var tax = Math.round(price * 0.05 * 100) / 100
+        var shipping = parseFloat($(".shipping span").html());
+        var fullPrice = Math.round((price + tax + shipping) *100) / 100;
+
+        if(price == 0) {
+            fullPrice = 0;
+        }
+
+        $(".subtotal span").html(price);
+        $(".tax span").html(tax);
+        $(".total span").html(fullPrice);
+    }
+
+    $(document).ready(function(){
+
+        $(".remove").click(function(){
+            var el = $(this);
+            el.parent().parent().addClass("removed");
+            window.setTimeout(
+                function(){
+                    el.parent().parent().slideUp('fast', function() {
+                        el.parent().parent().remove();
+                        if($(".product").length == 0) {
+                            if(check) {
+                                $("#cart").html("<h1>The shop does not function, yet!</h1><p>If you liked my shopping cart, please take a second and heart this Pen on <a href='https://codepen.io/ziga-miklic/pen/xhpob'>CodePen</a>. Thank you!</p>");
+                            } else {
+                                $("#cart").html("<h1>No products!</h1>");
+                            }
+                        }
+                        changeTotal();
+                    });
+                }, 200);
+        });
+
+        $(".qt-plus").click(function(){
+            $(this).parent().children(".qt").html(parseInt($(this).parent().children(".qt").html()) + 1);
+
+            $(this).parent().children(".full-price").addClass("added");
+
+            var el = $(this);
+            window.setTimeout(function(){el.parent().children(".full-price").removeClass("added"); changeVal(el);}, 150);
+        });
+
+        $(".qt-minus").click(function(){
+
+            child = $(this).parent().children(".qt");
+
+            if(parseInt(child.html()) > 1) {
+                child.html(parseInt(child.html()) - 1);
+            }
+
+            $(this).parent().children(".full-price").addClass("minused");
+
+            var el = $(this);
+            window.setTimeout(function(){el.parent().children(".full-price").removeClass("minused"); changeVal(el);}, 150);
+        });
+
+        window.setTimeout(function(){$(".is-open").removeClass("is-open")}, 1200);
+
+        $(".btn").click(function(){
+            check = true;
+            $(".remove").click();
+        });
+    });
+</script>
+</body>
+</html>
+========================
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", san-serif, serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    color: #019857;
+    margin: 15px 0 20px 0
+}
+
+.section-p1{
+    padding: 40px 80px;
+
+}
+
+
+.section-m1{
+    padding: 40px 0;
+}
+
+body{
+    width: 100%;
+    font-family: inherit;
+}
+
+
+
+#header{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #0a35ef;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quantity{
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 5px;
+    font-size: 7px
+
+}
+
+#mobile{
+    display: none;
+    align-items: center
+}
+
+#close{
+    display: none
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: " ";
+    width: 30%;
+    height: 2px;
+    background: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#hero{
+    background-image: url('https://th.bing.com/th/id/R.89d64c58e905c7db6623aff58cef2a20?rik=RJ2AehqH48%2fakg&riu=http%3a%2f%2f78.media.tumblr.com%2f100a1aa13ea42c0e3523a405b6922d8a%2ftumblr_p68f1aFIYz1qdfm66o1_1280.gif&ehk=JawT6hd7a7nAtMF6RXJNqSHbJ%2bzAA3429NBvynBdUJI%3d&risl=1&pid=ImgRaw&r=0');
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 1;
+
+}
+
+#hero h1{
+    color: #088178;
+
+}
+#hero h2{
+
+}
+
+#hero h4{
+    padding-bottom: 15px;
+
+}
+
+#hero button{
+    background-image: url(https://i.postimg.cc/528H2mmS/button.png);
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box h6{
+    display:inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#feature .fe-box:nth-child(2) h6{
+    background-color: #cdebbc;
+}
+
+
+#feature .fe-box:nth-child(3) h6{
+    background-color: #d1e8f2;
+}
+
+#feature .fe-box:nth-child(4) h6{
+    background-color: #cdd4f8;
+}
+
+#feature .fe-box:nth-child(5) h6{
+    background-color: #f6dbf6;
+}
+
+#feature .fe-box:nth-child(6) h6{
+    background-color: #fff2e5;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25)
+}
+
+#product1 .pro .des h4{
+    font-size: 15px;
+    padding-top: 7px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/SsC7D5WD/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: #ef3636;
+
+}
+
+button.normal{
+    color: #000;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer
+
+}
+
+#banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/vZ6YLxDG/b17.jpg);
+    min-width: 580px;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px
+}
+
+#sm-banner .banner-box2{
+    background-image: url(https://i.postimg.cc/gJ7FHxHv/b10.jpg)
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: #0e0e0e;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+button.white{
+    color: #000;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer
+}
+
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    color: #fff;
+    border: 1px solid #088178;
+
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/BQQHKtwh/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 20px
+}
+
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .banner-img2{
+    background-image: url(https://i.postimg.cc/SxP6qqdg/b4.jpg)
+}
+
+#banner3 .banner-img3{
+    background-image: url(https://i.postimg.cc/m2th49nG/b18.jpg)
+}
+
+#newsletter  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(https://i.postimg.cc/R0Bs4qqt/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#newsletter p{
+    color: #818ea0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 1.25em;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-left-right-radius: 0;
+    border-left-right-radius: 0;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: 50px
+
+}
+
+footer .sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+footer .logo{
+    margin-bottom: 20px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 5px;
+    cursor: pointer;
+
+}
+
+footer .follow i:hover, footer a:hover {
+    color: #088178;
+
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+
+}
+
+footer .install img{
+    margin: 10px 0 15px 0
+}
+
+
+footer .copyright{
+    width: 100%;
+    text-align: center
+
+}
+
+
+
+/*----------------------Media Query ----------*/
+
+
+@media (max-width: 920px) {
+
+    .section-p1 {
+        padding: 40px 40px
+    }
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s
+    }
+
+    #navbar.active{
+        right: 0;
+    }
+
+    #navbar li{
+        margin-bottom: 25px
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center
+    }
+    #mobile i{
+        font-size: 32px;
+        color: #1a1a1a;
+        padding-left: 20px
+    }
+    body #lg-bag{
+        display: none
+    }
+
+    #close{
+        display: initial;
+        position: absolute;
+        top: -280px;
+        left: 20px;
+        color: #222;
+        font-size: 32px;
+    }
+
+    #lg-bag{
+        display: none
+    }
+
+    .quantity{
+        top: 15px;
+        left: 83%;
+    }
+
+    #hero{
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%
+    }
+
+    #feature {
+        justify-content: center;
+
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px
+    }
+
+    #product1 .pro-container{
+        justify-content: center
+    }
+
+    #product1 .pro{
+        margin: 15px;
+    }
+
+    #banner{
+        height: 25vh
+    }
+
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 30vh;
+    }
+
+    #banner3{
+        padding: 0 40px
+    }
+
+    #banner3 .banner-box{
+        width: 28%
+    }
+
+    #newsletter .form {
+        width: 70%
+    }
+
+}
+
+@media (max-width: 477px) {
+    .section-p1{
+        padding: 20px
+    }
+
+    #header{
+        padding: 10px 30px;
+    }
+
+    .quantity{
+        top: 7px;
+        left: 80%;
+    }
+
+    #hero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    h2 {
+        font-size: 30px
+    }
+
+    h1{
+        font-size: 28px
+    }
+
+    p{
+        line-height: 24px;
+        font-size: 10px;
+    }
+
+    #hero button{
+        margin-right: 10px
+    }
+
+    #feature{
+        justify-content: space-between;
+    }
+
+    #feature .fe-box{
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro{
+        width: 100%
+    }
+
+    #banner{
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box{
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
+    #banner3{
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box{
+        width: 100%;
+    }
+
+    #newsletter .form{
+        width:  100%
+    }
+
+    #newsletter{
+        padding: 40px 20px;
+    }
+
+    footer .copyright{
+        text-align: start;
+    }
+}
+===================
+const bar = document.getElementById('bar')
+const close = document.getElementById('close')
+const nav = document.getElementById('navbar')
+
+if (bar) {
+    bar.addEventListener('click', () => {
+        nav.classList.add('active')
+    })
+
+    if (close) {
+        close.addEventListener('click', () => {
+            nav.classList.remove('active')
+        })
+    }
+}
+=================
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", san-serif;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4{
+    font-size: 20px;
+    color: #222;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0
+}
+
+.section-p1{
+    padding: 40px 80px;
+
+}
+
+
+.section-m1{
+    padding: 40px 0;
+}
+
+body{
+    width: 100%;
+    font-family: inherit;
+}
+
+
+
+#header{
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #E3E6F3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06)
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.quantity{
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    position: absolute;
+    top: -5px;
+    left: 80%;
+    padding: 3px 5px;
+    font-size: 7px
+
+}
+
+#mobile{
+    display: none;
+    align-items: center
+}
+
+#close{
+    display: none
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1a1a1a;
+    transition: 0.3s ease
+}
+
+#navbar li a:hover,
+#navbar li a.active{
+    color: #088178;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after{
+    content: " ";
+    width: 30%;
+    height: 2px;
+    background: 2px;
+    background-color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+#hero{
+    background-image: url("https://i.postimg.cc/cCwBHzDV/hero4.png");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 1;
+
+}
+
+#hero h1{
+    color: #088178;
+
+}
+#hero h2{
+
+}
+
+#hero h4{
+    padding-bottom: 15px;
+
+}
+
+#hero button{
+    background-image: url(https://i.postimg.cc/528H2mmS/button.png);
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 14px 80px 14px 65px;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box h6{
+    display: in-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+
+#feature .fe-box img{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#feature .fe-box:nth-child(2) h6{
+    background-color: #cdebbc;
+}
+
+
+#feature .fe-box:nth-child(3) h6{
+    background-color: #d1e8f2;
+}
+
+#feature .fe-box:nth-child(4) h6{
+    background-color: #cdd4f8;
+}
+
+#feature .fe-box:nth-child(5) h6{
+    background-color: #f6dbf6;
+}
+
+#feature .fe-box:nth-child(6) h6{
+    background-color: #fff2e5;
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition: 0.2s ease;
+    position: relative;
+}
+
+#product .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+
+#product1 .pro .des i{
+    font-size: 12px;
+    color: rgb(243, 181, 25)
+}
+
+#product1 .pro .des h4{
+    font-size: 15px;
+    padding-top: 7px;
+    font-weight: 700;
+    color: #088178;
+}
+
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #088178;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+
+}
+
+#banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/SsC7D5WD/b2.jpg);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+#banner h4{
+    color: #fff;
+    font-size: 16px;
+}
+
+#banner h2{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+}
+
+#banner h2 span{
+    color: #ef3636;
+
+}
+
+button.normal{
+    color: #000;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer
+
+}
+
+#banner button:hover{
+    background-color: #088178;
+    color: #fff;
+}
+
+#sm-banner .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/vZ6YLxDG/b17.jpg);
+    min-width: 580px;
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px
+}
+
+#sm-banner .banner-box2{
+    background-image: url(https://i.postimg.cc/gJ7FHxHv/b10.jpg)
+}
+
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#sm-banner h2{
+    color: #fff;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+#sm-banner span{
+    color: #0e0e0e;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+button.white{
+    color: #000;
+    padding: 15px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    transition: 0.2s;
+    cursor: pointer
+}
+
+#sm-banner .banner-box:hover button{
+    background-color: #088178;
+    color: #fff;
+    border: 1px solid #088178;
+
+}
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: url(https://i.postimg.cc/BQQHKtwh/b7.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+    margin-bottom: 20px
+}
+
+#banner3 h2{
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+}
+
+#banner3 h3{
+    color: #ec544e;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#banner3 .banner-img2{
+    background-image: url(https://i.postimg.cc/SxP6qqdg/b4.jpg)
+}
+
+#banner3 .banner-img3{
+    background-image: url(https://i.postimg.cc/m2th49nG/b18.jpg)
+}
+
+#newsletter  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(https://i.postimg.cc/R0Bs4qqt/b14.png);
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+}
+
+#newsletter h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+#newsletter p{
+    color: #818ea0;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+#newsletter p span{
+    color: #ffbd27;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    width: 100%;
+    font-size: 14px;
+    padding: 0 1.25em;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+    border-left-right-radius: 0;
+    border-left-right-radius: 0;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    margin-left: 50px
+
+}
+
+footer .sec{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+}
+
+footer .logo{
+    margin-bottom: 20px;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px
+}
+
+footer .follow i{
+    color: #465b52;
+    padding-right: 5px;
+    cursor: pointer;
+
+}
+
+footer .follow i:hover, footer a:hover {
+    color: #088178;
+
+}
+
+footer .install .row img{
+    border: 1px solid #088178;
+    border-radius: 6px;
+
+}
+
+footer .install img{
+    margin: 10px 0 15px 0
+}
+
+
+footer .copyright{
+    width: 100%;
+    text-align: center
+
+}
+
+
+
+/*----------------------Media Query ----------*/
+
+
+@media (max-width: 920px) {
+
+    .section-p1 {
+        padding: 40px 40px
+    }
+
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #E3E6F3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s
+    }
+
+    #navbar.active{
+        right: 0;
+    }
+
+    #navbar li{
+        margin-bottom: 25px
+    }
+
+    #mobile{
+        display: flex;
+        align-items: center
+    }
+    #mobile i{
+        font-size: 32px;
+        color: #1a1a1a;
+        padding-left: 20px
+    }
+    body #lg-bag{
+        display: none
+    }
+
+    #close{
+        display: initial;
+        position: absolute;
+        top: -280px;
+        left: 20px;
+        color: #222;
+        font-size: 32px;
+    }
+
+    #lg-bag{
+        display: none
+    }
+
+    .quantity{
+        top: 15px;
+        left: 83%;
+    }
+
+    #hero{
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%
+    }
+
+    #feature {
+        justify-content: center;
+
+    }
+
+    #feature .fe-box {
+        margin: 15px 15px
+    }
+
+    #product1 .pro-container{
+        justify-content: center
+    }
+
+    #product1 .pro{
+        margin: 15px;
+    }
+
+    #banner{
+        height: 25vh
+    }
+
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 30vh;
+    }
+
+    #banner3{
+        padding: 0 40px
+    }
+
+    #banner3 .banner-box{
+        width: 28%
+    }
+
+    #newsletter .form {
+        width: 70%
+    }
+
+}
+
+@media (max-width: 477px) {
+    .section-p1{
+        padding: 20px
+    }
+
+    #header{
+        padding: 10px 30px;
+    }
+
+    .quantity{
+        top: 7px;
+        left: 80%;
+    }
+
+    #hero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+
+    h2 {
+        font-size: 30px
+    }
+
+    h1{
+        font-size: 28px
+    }
+
+    p{
+        line-height: 24px;
+        font-size: 10px;
+    }
+
+    #hero button{
+        margin-right: 10px
+    }
+
+    #feature{
+        justify-content: space-between;
+    }
+
+    #feature .fe-box{
+        width: 155px;
+        margin: 0 0 15px 0;
+    }
+
+    #product1 .pro{
+        width: 100%
+    }
+
+    #banner{
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box{
+        height: 40vh;
+    }
+
+    #sm-banner .banner-box2 {
+        margin-top: 20px;
+    }
+
+    #banner3{
+        padding: 0 20px;
+    }
+
+    #banner3 .banner-box{
+        width: 100%;
+    }
+
+    #newsletter .form{
+        width:  100%
+    }
+
+    #newsletter{
+        padding: 40px 20px;
+    }
+
+    footer .copyright{
+        text-align: start;
+    }
+}
